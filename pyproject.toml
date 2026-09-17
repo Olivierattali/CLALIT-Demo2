@@ -1,0 +1,15 @@
+[project]
+name = "hl7-fhir-converter"
+version = "0.1.0"
+description = "Sample HL7v2-to-FHIR lab result converter (demo repo for unit-test-coverage tooling)"
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.coverage.run]
+source = ["src/hl7_fhir_converter"]
+
+[tool.coverage.report]
+show_missing = true

@@ -21,7 +21,7 @@ pytest --cov --cov-report=term-missing # run tests with a coverage report
 
 ## Why this repo exists
 
-This is a demo codebase for exercising an AI coding agent's ability to find
+This is a codebase for exercising an ability to find
 and close unit test gaps in a realistic, moderately complex module — not a
 toy `add(a, b)` example, and not a gap whose only cost is engineering pride.
 
